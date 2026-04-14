@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="description"
+      content="Meeting minutes for the Cutie Devs software engineering team check-in."
+    >
+    <title>Cutie Devs First Meeting</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Cutie Devs Check In Meeting</h1>
+      <p>
+        <strong>Note:</strong> This is a fake meeting I made for this assignment,
+        this did not actually happen.
+      </p>
+
+      <nav>
+        <a href="#attendance">Attendance</a><br>
+        <a href="#agenda">Agenda</a><br>
+        <a href="#notes">Notes</a><br>
+        <a href="#media">Media</a><br>
+        <a href="#extra">Extra Details</a><br>
+        <a href="#feedback">Feedback Form</a>
+      </nav>
+
+      <hr>
+    </header>
+
+    <main>
+      <section>
+        <h2>Meeting Overview</h2>
+        <p><b>Date:</b> <span>4/13/2026</span></p>
+        <p>
+          This meeting was a project <em>check-in</em>.
+        </p>
+        <div>
+          <p>
+            The purpose of this meeting was to review progress, discuss blockers,
+            and assign new backend tasks.
+          </p>
+        </div>
+      </section>
+
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <h3>Present Members</h3>
+        <ol>
+          <li>Yuval Pesok</li>
+          <li>Jordan Junaidi</li>
+          <li>Alec Lichtenberger</li>
+          <li>Angelo Sespene</li>
+          <li>Bowen Wu</li>
+          <li>Roy Martinez</li>
+          <li>Jennifer Zhu</li>
+          <li>Harvey Zhang</li>
+        </ol>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <h3>Main Topics</h3>
+        <ul>
+          <li>Check in on current tasks</li>
+          <li>Discuss any blockers or challenges</li>
+          <li>Assign new tasks for the backend</li>
+        </ul>
+
+        <p>
+          Unfinished business: Discuss demo preparation to show
+          to the TA next week.
+        </p>
+      </section>
+
+      <section id="notes">
+        <h2>Meeting Notes</h2>
+        <h3>Discussion Summary</h3>
+        <ul>
+          <li>Outside of the frontend running into issues, everyone is on track.</li>
+          <li>
+            The backend team is progressing well and plans to complete the next
+            milestone soon.
+          </li>
+          <li>
+            One member mentioned the frontend bugs were <i>annoying</i>, but still
+            manageable.
+          </li>
+          <li>
+            The team emphasized that demo readiness is important for next
+            week.
+          </li>
+        </ul>
+
+        <p>
+          For project resources, visit
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+            MDN HTML Documentation
+          </a>.
+        </p>
+      </section>
+
+      <section id="media">
+        <h2>Images and Multimedia</h2>
+        <h3>Team Branding and Media</h3>
+
+        <p>Here is the team logo:</p>
+        <img
+          src="favicon.ico"
+          alt="Cutie Devs logo"
+          width="250"
+        >
+
+        <p>Example audio element:</p>
+        <audio controls>
+          <source src="IMG_6261.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+
+        <p>Example video element:</p>
+        <video controls width="320">
+          <source src="IMG_6260.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="extra">
+        <h2>Extra Details</h2>
+        <h3>Additional Information</h3>
+
+        <details>
+          <summary>Click to view extra meeting details</summary>
+          <p>
+            The team may need another short meeting later this week to finalize
+            demo responsibilities and polish the frontend.
+          </p>
+        </details>
+      </section>
+
+      <section id="feedback">
+        <h2>Feedback Form</h2>
+        <h3>Post-Meeting Input</h3>
+
+        <form>
+          <fieldset>
+
+            <p>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" list="member-names">
+            </p>
+
+            <datalist id="member-names">
+              <option value="Yuval Pesok"></option>
+              <option value="Jordan Junaidi"></option>
+              <option value="Alec Lichtenberger"></option>
+              <option value="Angelo Sespene"></option>
+              <option value="Bowen Wu"></option>
+              <option value="Roy Martinez"></option>
+              <option value="Jennifer Zhu"></option>
+              <option value="Harvey Zhang"></option>
+            </datalist>
+
+            <p>
+              <label for="meeting-date">Meeting date:</label><br>
+              <input type="date" id="meeting-date" name="meeting-date">
+            </p>
+
+            <p>Which area are you working on?</p>
+            <input type="radio" id="frontend" name="team-area" value="Frontend">
+            <label for="frontend">Frontend</label><br>
+
+            <input type="radio" id="backend" name="team-area" value="Backend">
+            <label for="backend">Backend</label><br>
+
+            <input type="radio" id="design" name="team-area" value="Design">
+            <label for="design">Design</label>
+
+            <p>What should we focus on next?</p>
+            <input type="checkbox" id="bugfixes" name="focus" value="Bug Fixes">
+            <label for="bugfixes">Bug fixes</label><br>
+
+            <input type="checkbox" id="demo" name="focus" value="Demo Prep">
+            <label for="demo">Demo prep</label><br>
+
+            <input type="checkbox" id="features" name="focus" value="New Features">
+            <label for="features">New features</label>
+
+            <p>
+              <label for="priority">Choose a priority:</label><br>
+              <select id="priority" name="priority">
+                <option value="">--Select one--</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="comments">Additional comments:</label><br>
+              <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+            </p>
+
+            <button type="submit">Submit Feedback</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <hr>
+      <p>
+        <strong>Cutie Devs Meeting Minutes</strong><br>
+        Created for a software engineering HTML assignment.
+      </p>
+    </footer>
+  </body>
+</html>
